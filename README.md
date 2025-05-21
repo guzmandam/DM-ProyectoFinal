@@ -11,7 +11,7 @@ Este proyecto implementa un sistema completo de control de calidad para una lín
 - [Entrenamiento del Modelo](#entrenamiento-del-modelo)
 - [Panel de Control](#panel-de-control)
 - [Mantenimiento](#mantenimiento)
-- [Contribución](#contribución)
+- [Soporte](#soporte)
 
 ## 🎯 Descripción General
 
@@ -139,10 +139,6 @@ Se recomienda reentrenar el modelo:
 - Siga PEP 8 para Python
 - Documente todas las funciones y clases
 - Mantenga la cobertura de pruebas > 80%
-
-## 📄 Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT - vea el archivo [LICENSE.md](LICENSE.md) para detalles.
 
 ## 🤝 Soporte
 
