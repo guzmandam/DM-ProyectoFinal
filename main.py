@@ -216,11 +216,7 @@ def main():
     Returns:
         None
     """
-    # 1. Carga inicial de datos usando el Retriever
-    retriever = Retriever()
-    output_file = retriever.save_data(file_type="parquet")
-    
-    # 2. Inicialización de Spark con la configuración especificada
+    # 1. Inicialización de Spark con la configuración especificada
     spark = (SparkSession.builder
             .appName(SPARK_APP_NAME)
             .master("local[*]")
@@ -229,7 +225,7 @@ def main():
             .getOrCreate())
     
     # 3. Carga de datos en formato Parquet a Spark
-    df = spark.read.parquet(output_file)
+    df = spark.read.parquet("./data/brewery_sales.parquet")
     
     # 4. Aplicación de transformaciones de preprocesamiento
     df = preprocess_data(df)
