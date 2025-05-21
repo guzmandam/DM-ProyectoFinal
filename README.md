@@ -22,6 +22,8 @@ El sistema consta de tres componentes principales:
 
 El sistema utiliza Apache Spark para el procesamiento de datos a gran escala y Streamlit para la visualización en tiempo real.
 
+Se puede encontrar una presentacion del proyecto en el archivo `assets/presentacion.pdf`.
+
 ## 💻 Requisitos del Sistema
 
 - Python 3.8+
